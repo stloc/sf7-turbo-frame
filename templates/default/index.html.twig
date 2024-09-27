@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DefaultController!{% endblock %}
+
+{% block body %}
+
+    <h1>Index</h1>
+
+    <turbo-frame id="frame_test" src="{{ path('app_form') }}">loading..</turbo-frame>
+
+{% endblock %}
